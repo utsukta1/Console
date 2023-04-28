@@ -10,23 +10,26 @@ namespace FirstConsole.Constructor
     {
         int n = 0;
         int b;
-        
-         public void Abc()
-        {
-            Console.WriteLine(n);
-        }
+        int c;
         public Construct()
         {
             n = 5;
         }
+        
+         public void Defcons()
+        {
+            Console.WriteLine(n);
+        }
 
-        public Construct(int e)
+        public Construct(int e, int f)
         {
             b = e;
+            c = f;
         }
         public void Parcons()
         {
-            Console.WriteLine(b);
+            int sum = b + c;
+            Console.WriteLine(sum);
         }
 
 
