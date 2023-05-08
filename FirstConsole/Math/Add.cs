@@ -30,6 +30,12 @@ namespace FirstConsole.Math
                 
         }
 
+        public void Sum(int a, int b)
+        {
+            int s= a+ b;
+            Console.WriteLine("The sum of two number is: " + s );
+        }
+
 
     }
 }

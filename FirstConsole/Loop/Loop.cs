@@ -39,6 +39,17 @@ namespace FirstConsole.Loop
                 i++;
             } while(i <= 5);
         }
+        public void feloop()
+        {
+
+            string[] Animals = { "Cat", "Dog", "Rabbit" };
+            foreach (string i in Animals)
+            {
+                Console.WriteLine(i);
+
+            }
+        }
+            
     }
    
 }
